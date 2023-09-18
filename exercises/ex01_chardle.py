@@ -12,19 +12,19 @@ if (len(single_character) != 1):
 print("Searching for " + single_character + " in " + word)
 
 count: int = 0 
-if(single_character == word[0]): 
+if (single_character == word[0]): 
     print(single_character + " found at index 0")
     count = count + 1
-if(single_character == word[1]): 
+if (single_character == word[1]): 
     print(single_character + " found at index 1")
     count = count + 1
-if(single_character == word[2]):
+if (single_character == word[2]):
     print(single_character + " found at index 2")
     count = count + 1
-if(single_character == word[3]): 
+if (single_character == word[3]): 
     print(single_character + " found at index 3")
     count = count + 1
-if(single_character == word[4]): 
+if (single_character == word[4]): 
     print(single_character + " found at index 4")
     count = count + 1
 

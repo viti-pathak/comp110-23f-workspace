@@ -9,7 +9,7 @@ single_character: str = input("Enter a single character: ")
 if (len(single_character) != 1): 
     print("Error: Character must be a single character.")
     exit()
-print("Searching for" + single_character + "in" + word)
+print("Searching for " + single_character + " in " + word)
 
 count: int = 0 
 if(single_character == word[0]): 
@@ -29,8 +29,8 @@ if(single_character == word[4]):
     count = count + 1
 
 if (count == 0):
-    print("No instances of " + single_character + "found in" + word)
+    print("No instances of " + single_character + " found in " + word)
 if (count == 1):
-    print("1 instance of " + single_character + "found in" + word)
+    print("1 instance of " + single_character + " found in " + word)
 if (count > 1): 
-    print(str(count) + "instances of " + single_character + "found in" + word)
+    print(str(count) + " instances of " + single_character + " found in " + word)
